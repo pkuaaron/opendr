@@ -3,8 +3,9 @@ Author(s): Matthew Loper
 
 See LICENCE.txt for licensing and contact information.
 """
+from distutils.core import setup
 
-from setuptools import setup
+# from setuptools import setup
 from distutils.extension import Extension
 import numpy
 import platform
